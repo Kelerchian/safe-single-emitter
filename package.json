@@ -1,0 +1,23 @@
+{
+  "name": "safe-single-emitter",
+  "version": "1.0.0",
+  "description": "Safe Single typed event emitter",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "clean": "rimraf ./build",
+    "test": "npx ava -v"
+  },
+  "author": "Alan Darmasaputra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kelerchian/safe-single-emitter"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^3.8.2",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
